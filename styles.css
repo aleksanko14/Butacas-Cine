@@ -1,0 +1,53 @@
+body{
+    background-image: url(img/156835-cinema_wallpapoers-cinema-theater-karikaalan-multiplex-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{color: white;
+}
+
+#fecha{
+    color: white;
+}
+
+.padre {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto ;
+}
+
+.pasillo{
+    width: 60px;
+}
+
+.numFila{
+    width: 60px;
+    color: white;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  justify-content: space-between;
+  text-align: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.pantalla{
+    display: flex;
+    height: 50px;
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    border: solid white;
+}
+
