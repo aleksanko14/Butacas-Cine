@@ -4,14 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="stylesIndex.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>OnlyFilm</title>
   </head>
   <body>
 
-    <div id="fecha"></div>
+  <div class="fechaNombreSesion">
+    <div class="fecha"></div>
+    <div class="nombrePeli"><h1>Harry Potter y la Piedra Filosofal</h1></div>
+    <div class="sesion"><h2>Sala 1 / Hora: 19:00</h2></div>
+  </div>
     <br />
     <div class="padre">
+    <div class="sala">
+
       <div class="fila">
         <div class="numFila">14</div>
         <div class="asiento">
@@ -2331,6 +2337,7 @@
             width="25"
             class="asientoDisponible"
             onclick=""
+            
           />
         </div>
         <div class="numFila">1</div>
@@ -2339,6 +2346,19 @@
       <div class="pantalla">PANTALLA</div>
       
     </div>
+
+    <div class="tipoButacas">
+      <img class="iconoAsiento" src="img/verde-cineapolis.png"><label><h3>Asiento Disponible</h3></label>
+      <div class="pasillo"></div>
+      <img class="iconoAsiento" src="img/ocupada-new.png"><label><h3>Asiento Ocupado</h3></label>
+    </div>
+
+
+    <div class="botones">
+      <div class="boton"><input type="button" value="Comprar Entradas" onclick="reservar()"></div>
+      <div class="boton"><input type="button" value="Resetar Sala" onclick="limpiar()"></div>
+    </div>
+  </div>
   </body>
-  <script src="script.js"></script>
+  <script src="java.js"></script>
 </html>
